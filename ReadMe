@@ -1,0 +1,23 @@
+Two models one basic the other advanced - both linear regression ML algorithms
+
+Basic
+Does not use class functions unlike advanced
+
+
+Adavnced 
+Linear regression model used to generate predictions, using standard scaler and onehotencoder
+Extract Categories from json string
+Validate categories to keep only the most common ones
+Adjusts the goal feature to USD
+Builds features computed from timestamps
+Transform countries into larger groups to avoid having too many dummies
+Update parameters after re-tuning the model
+Processor for categories with one-hot encoding
+Processor for countries with one-hot encoding
+First level of column specific transformations
+Add a scaling stage
+Return X_train and y_train
+fit
+preprocess_unseen_data
+predict
+return self.model.predict(X)
